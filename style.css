@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Pacifico&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2? Family= Comforter & Family= Pacifico & Family= Roboto:wght@100;400 & display=swap');
+
+.conteiner {
+    background-color: #e9cfd9;
+    border-left:8px solid #72686c;
+    max-width: 750px;
+    margin: auto; 
+}
+.name{
+    font: bold 40px 'Pacifico', sans-serif;
+    letter-spacing: 8px;
+    padding-left: 80px;
+} 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #221937
+
+
+}
+.avatar{
+    width: 200px;
+    border-radius:20px;
+    box-shadow: 4px 4px 14px rgba(0,0,0.25);
+    margin-left: 10px;
+}
+.info {
+    display: flex;
+    position: static;
+    left: 500;
+    font: 900 18px 'Pacifico', sans-serif;
+    letter-spacing: 3px;
+    font-style:italic ;
+    margin-bottom: 20px;
+}
+.info p {
+    margin-left: 20px;
+}
+
+
+
+a {
+    display: flex;
+    justify-content: center;
+    background: rgb(148, 130, 140);
+    color: #221937;
+    text-decoration: none;
+    font-family: 'Pacifico', sans-serif;
+    width: 40px; 
+    height: 40px;
+    padding: 15px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+a:hover {
+    opacity: 0.8;
+    color: rgb(0, 0, 0)
+        }
+h2 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    background-color:#fffdc7;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+  
+ }
+
+
+.list ul {
+    margin: 0;
+    padding: 20px;
+ }
+
+table td, tr, th  {
+        border: 2px solid #72686c;
+        padding: 8px;
+}
+table td  {
+   color: #72686c ;
+}
+table td:nth-child(1), table th {
+    background:#e9cfd9;
+}
+
+ form h2 {
+    text-align: center;
+ }
+
+ .form-group label { 
+    margin-left: 10px;
+    display: block;
+ }
+ .form-group input, .form-group textarea {
+    margin-left: 10px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color:#fffdc7;
+    color: #000;
+    outline: #e9cfd9;
+     }
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .form-group {
+display: inline-block;
+width:49%;
+margin: auto;
+}
+.form-row .form-group:last-child {
+    margin-left: 8px ;
+}
+.form-group textarea {
+    width: 100%;
+}
+
+ .btn {
+    display: inline-block;
+    background: rgb(148, 130, 140);
+    padding: 15px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+    }
+
+.btn:hover {
+opacity: 0.8;
+color: rgb(0, 0, 0)
+    }
